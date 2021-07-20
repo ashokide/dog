@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Ends -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
+                    <div class="card mx-auto mt-5 p-2" style="width: 18rem;">
+                        <div class="card-header text-center">
+                            <img alt="dog" class="card-img-top img-fluid" id="url">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title text-center">Name: <span id="name" class="text-warning"></span></p>
+                            <p class="card-text">Bred For: <span id="bred_for" class="text-success"></span></p>
+                            <p class="card-text">Breed:<span id="breed_group" class="text-success"></span></p>
+                            <p class="card-text">Life Span:<span id="life_span" class="text-success"></span></p>
+                            <p class="card-text">Temperament:<span id="temperament" class="text-success"></span></p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-primary text-center p-2 m-2" id="next-btn">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
