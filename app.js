@@ -14,5 +14,6 @@ const reloadData = () => {
 
 reloadData()
 document.getElementById('next-btn').addEventListener('click', () => {
+    url.src = "loading.png";
     reloadData()
 })
