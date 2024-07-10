@@ -8,7 +8,7 @@ const getDogData = async () => {
 
 const reloadData = () => {
     getDogData().then(result => {
-        result[0].url ? url.src = result[0].url : "loading.png"
+        url.src = result[0].url ? result[0].url : "loading.png"
     })
 }
 
